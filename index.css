@@ -1,0 +1,56 @@
+    body {
+        background: #43cea2;
+        background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+        background: linear-gradient(to right, #185a9d, #43cea2);
+    }
+    
+    #content {
+        background-color: white;
+        height: 500px;
+        margin-top: 70px;
+        margin-right: 500px;
+        margin-left: 500px;
+        -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+    }
+    
+    header {
+        padding: 5px;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-family: Verdana;
+        font-weight: 100;
+    }
+    
+    input {
+        padding: 5px;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-family: Verdana;
+        font-weight: 100;
+    }
+    
+    form {
+        margin: 10px 0;
+        font-family: Verdana;
+    }
+    
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+    
+    textarea {
+        overflow: auto;
+        font-family: Verdana;
+    }
+    
+    .delete-text,
+    .delete-text:hover {
+        float: right;
+        cursor: pointer;
+        color: red;
+        font-weight: bold;
+    }
